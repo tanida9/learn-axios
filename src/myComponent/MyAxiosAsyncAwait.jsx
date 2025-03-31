@@ -26,7 +26,7 @@ export function MyAxiosAsyncAwait() {
 
   return (
     <div className="min-h-screen w-full  bg-blue-100 p-6 rounded-xl">
-      <h1 className="text-2xl font-bold mb-4 text-center">Random Cutie List😻</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center">Random of Cutie List😻</h1>
 
       {loading && <p className="text-center">Loading...</p>}
       {error && <p className="text-center text-red-500">{error}</p>}
